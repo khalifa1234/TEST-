@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Git Test Suite 1,,,2017-12-19 09:06:21,2017-12-19 09:06:23,2.067s,PASSED
+,,,,,,
+Test Cases/Git Test Case1,,,2017-12-19 09:06:21,2017-12-19 09:06:22,0.838s,PASSED
+Statement - return null,,,2017-12-19 09:06:22,2017-12-19 09:06:22,0.007s,PASSED
+,,,,,,
+Test Cases/Git Test Case 2,,,2017-12-19 09:06:22,2017-12-19 09:06:23,0.380s,PASSED
+Statement - return null,,,2017-12-19 09:06:23,2017-12-19 09:06:23,0.002s,PASSED

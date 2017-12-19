@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Git Test Suite 1" time="2" tests="2" failures="0" errors="0">
+   <testsuite name="Git Test Suite 1" tests="2" failures="0" errors="0" time="2" timestamp="2017-12-19 09:06:21" hostname="nkhalifa - HQSLW16062528.ndc.nasa.gov" id="Test Suites/Git Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nkhalifa\\git\\TEST-\\Reports\\Git Test Suite 1\\20171219_090618"/>
+         <property name="logFiles" value="C:\\Users\\nkhalifa\\git\\TEST-\\Reports\\Git Test Suite 1\\20171219_090618\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nkhalifa - HQSLW16062528.ndc.nasa.gov"/>
+         <property name="hostAddress" value="65.246.78.76"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Git Test Case1" classname="Test Cases/Git Test Case1" status="PASSED">
+         <system-out><![CDATA[2017-12-19 09:06:21 - [TEST_CASE][PASSED] - Test Cases/Git Test Case1: Test Cases/Git Test Case1
+
+2017-12-19 09:06:22 - [TEST_STEP][PASSED] - Statement - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Git Test Case 2" classname="Test Cases/Git Test Case 2" status="PASSED">
+         <system-out><![CDATA[2017-12-19 09:06:22 - [TEST_CASE][PASSED] - Test Cases/Git Test Case 2: Test Cases/Git Test Case 2
+
+2017-12-19 09:06:23 - [TEST_STEP][PASSED] - Statement - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-19 09:06:21 - [TEST_SUITE][PASSED] - Git Test Suite 1: Test Cases/Git Test Case 2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -18,4 +18,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://orangehrm.stage.hq.aws.nasa.gov/auth/login')
+
+WebUI.click(findTestObject('Git Test/Page_OrangeHRM/span_Username'))
+
+WebUI.setText(findTestObject('Git Test/Page_OrangeHRM/input_txtUsername'), 'a.adams')
+
+WebUI.setText(findTestObject('Git Test/Page_OrangeHRM/input_txtPassword'), 'or@ngeHITTS2017')
+
+WebUI.click(findTestObject('Git Test/Page_OrangeHRM/input_Submit'))
+
+WebUI.closeBrowser()
 
